@@ -12,10 +12,13 @@ public class Main {
 
         String Vardas = sc.nextLine();
 
+        System.out.println(Vardas);
 
-        System.out.println(Vardas);
-        System.out.println(Vardas);
-        System.out.println(Vardas);
-	// write your code here
+        for (int i = 0; i < 5; i++) {
+            System.out.println(Vardas);
+
+        }
+
+
     }
 }
